@@ -5,7 +5,7 @@ import { useWallet } from '../services/providers/MintbaseWalletContext'
 import Link from 'next/link'
 import Image from 'next/image'
 
-const Hero = () => {
+const Events = () => {
   const { wallet, isConnected, details } = useWallet()
   return (
     <>
@@ -36,4 +36,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Events

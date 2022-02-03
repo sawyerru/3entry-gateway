@@ -1,11 +1,9 @@
 import Head from 'next/head'
 
-import Header from '../components/Header'
-import Hero from '../components/Hero'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import Products from '../components/Products'
-import Minter from '../components/Minter'
+import Header from '../../components/Header'
+import Events from '../../components/Events'
+import Footer from '../../components/Footer'
+import Navbar from '../../components/Navbar'
 
 const Home = () => {
   return (
@@ -16,7 +14,7 @@ const Home = () => {
       </Head>
       <Header />
       {/* <Navbar /> */}
-      <Hero />
+      <Events />
       {/* <Products storeId="wildeverse.mintbase1.near" /> */}
       {/* <Products storeId="hellovirtualworld.mintbase1.near" /> */}
       {/* <Minter />

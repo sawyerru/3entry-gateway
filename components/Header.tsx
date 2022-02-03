@@ -4,11 +4,11 @@ import { useWallet } from '../services/providers/MintbaseWalletContext'
 const Header = () => {
   const { wallet, isConnected, details } = useWallet()
   return (
-    <header className="w-full px-6 bg-white">
+    <header className="w-full px-6 bg-black">
       <div className="container mx-auto max-w-8xl md:flex justify-between items-center">
         <Link href="/" passHref>
-          <a className="py-6 w-full text-center md:text-left md:w-auto text-gray-600 no-underline flex justify-center items-center">
-            Mintbase Engineering
+          <a className="py-6 w-full font-black text-center md:text-left md:w-auto text-gray-200 no-underline flex justify-center items-center">
+            3ntry
           </a>
         </Link>
 
